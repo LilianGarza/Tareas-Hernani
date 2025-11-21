@@ -1,0 +1,9 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#contenedor {
+  margin-top: 20px;
+}
