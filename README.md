@@ -14,7 +14,7 @@ En resumen, este repositorio existe para almacenar mis trabajos, documentar mi a
 
 ## Organización del repositorio
 
-La organización de este repositorio está pensada para que sea clara, accesible y fácil de navegar tanto para mí como para quien lo revise. Cada una de las tareas está separada en carpetas o archivos individuales, según lo que necesite cada actividad. Trato de que el nombre de cada archivo sea lo más descriptivo posible, para evitar confusiones y poder identificar rápidamente qué contiene cada documento. Esta manera de ordenar el repositorio también me ayuda a evitar tener todo mezclado y a mantener una estructura visual limpia.
+La organización de este repositorio está pensada para que sea clara y fàcil de navegar. Cada una de las tareas está separada en carpetas, según lo que necesite cada actividad. Trato de que el nombre de cada archivo sea lo más descriptivo posible, para evitar confusiones y poder identificar rápidamente qué contiene cada documento. Esta manera de ordenar el repositorio también me ayuda a evitar tener todo mezclado y a mantener una estructura visual limpia.
 
 Cuando necesito incluir material extra, como imágenes, capturas de pantalla, apuntes o cualquier archivo complementario, lo guardo en carpetas específicas para no llenar innecesariamente la carpeta principal. De esta manera, puedo mantener un orden más lógico: lo principal por un lado, y lo secundario por otro. Además, así aprovecho mejor las funciones de GitHub, como ver los commits de forma organizada, comparar cambios entre versiones y entender cómo evoluciona mi trabajo a lo largo del tiempo.
 
