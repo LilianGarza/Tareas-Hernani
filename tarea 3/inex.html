@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Datos Supabase</title>
+
+    <script type="module">
+        import { createClient } from "https://esm.sh/@supabase/supabase-js";
+
+        const supabase = createClient(
+            "https://pzszhotaapdbpwgankub.supabase.co",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB6c3pob3RhYXBkYnB3Z2Fua3ViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEyNzc3MDMsImV4cCI6MjA3Njg1MzcwM30.1G9F0GoaKmLPzpIq3rLdV124sAVRLO9kpi4XLrKKfL4"
+        );
+
+        async function leerDatos() {
+            const datos = await supabase.from("tablahernani").select("*");
+            const contenedor = document.getElementById("lista");
+
+            let resultado = "";
+            for (let i = 0; i < datos.data.length; i++) {
+                let fila = datos.data[i];
+                resultado = resultado +
+                    "ID: " + fila.id + " - " +
+                    "Número: " + fila.numero + " - " +
+                    "Texto: " + fila.texto + "<br>";
+            }
+
+            contenedor.innerHTML = resultado;
+        }
+
+        leerDatos();
+    </script>
+</head>
+<body>
+
+    <h1>Datos en Supabase</h1>
+    <div id="lista">Cargando...</div>
+
+</body>
+</html>
